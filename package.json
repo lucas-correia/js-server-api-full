@@ -1,0 +1,27 @@
+{
+  "name": "first-js-server",
+  "version": "1.0.0",
+  "description": "my first js rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas-correia/js-server-api-full.git"
+  },
+  "author": "Lucas Correia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucas-correia/js-server-api-full/issues"
+  },
+  "homepage": "https://github.com/lucas-correia/js-server-api-full#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.2.0"
+  }
+}
